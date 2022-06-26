@@ -145,11 +145,17 @@
     <ClCompile Include="p7.1.2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="p7.1.4.cpp" />
+    <ClCompile Include="p7.1.4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="p7.3.2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="p7.3.3.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Sales_data.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="WindowandScreen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

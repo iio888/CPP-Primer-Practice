@@ -24,12 +24,24 @@
     <ClCompile Include="p7.1.4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="p7.3.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_data.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p7.3.3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowandScreen.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
