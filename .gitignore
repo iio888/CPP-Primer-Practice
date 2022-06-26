@@ -33,3 +33,7 @@
 
 # VS files
 *.vs
+*.sln
+*.vcxproj
+*.filters
+*.user
