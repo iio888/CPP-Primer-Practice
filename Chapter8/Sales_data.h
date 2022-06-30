@@ -1,10 +1,9 @@
-#pragma once
-
 #ifndef SALES_DATA_H
 #define SALES_DATA_H
 
-#include <iostream>
 #include <string>
+#include <iostream>
+using std::string;
 
 class Sales_data {
 private:
@@ -50,6 +49,4 @@ std::istream &read(std::istream &in, Sales_data &item);
 std::ostream &print(std::ostream &out, const Sales_data &item);
 
 
-
 #endif
-
