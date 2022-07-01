@@ -16,19 +16,13 @@ private:
 	friend std::istream &read(std::istream &in, Sales_data &item);
 	friend std::ostream &print(std::ostream &out, const Sales_data &item);
 public:
-	Sales_data(): Sales_data("", 0, 0.0) {
-		std::cout << "default\n";
-	}
+	Sales_data(): Sales_data("", 0, 0.0) { }
 	Sales_data(std::istream &in) : Sales_data() {
 		read(in, *this);
-		std::cout << "stream\n";
 	}
-	Sales_data(std::string s) : Sales_data(s, 0, 0.0) { 
-		std::cout << "ISBN\n";
-	}
+	Sales_data(std::string s) : Sales_data(s, 0, 0.0) { }
 	Sales_data(std::string s, unsigned n, double p):
 		ISBN(s), num(n), price(p), revenue(n *p) { 
-		std::cout << "three\n";
 	}
 
 	std::string isbn() const {

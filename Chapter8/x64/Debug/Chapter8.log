@@ -1,4 +1,2 @@
-﻿  p8.2.1.cpp
-p8.2.1.obj : error LNK2019: 无法解析的外部符号 "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl read(class std::basic_istream<char,struct std::char_traits<char> > &,class Sales_data &)" (?read@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEAV12@AEAVSales_data@@@Z)，函数 main 中引用了该符号
-p8.2.1.obj : error LNK2019: 无法解析的外部符号 "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl print(class std::basic_ostream<char,struct std::char_traits<char> > &,class Sales_data const &)" (?print@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV12@AEBVSales_data@@@Z)，函数 main 中引用了该符号
-E:\Practice\C++\C++Primer\Chapter1\x64\Debug\Chapter8.exe : fatal error LNK1120: 2 个无法解析的外部命令
+﻿  p8.3.1.cpp
+  Chapter8.vcxproj -> E:\Practice\C++\C++Primer\Chapter1\x64\Debug\Chapter8.exe
