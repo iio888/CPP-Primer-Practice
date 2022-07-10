@@ -5,13 +5,14 @@
 
 class date {
 private:
+	//unsolved Vim tips
 	std::map<std::string, int> monthMap = {
 		{"Jan", 0}, {"Janurary", 0}, {"Feb", 0}, {"February", 0}, {"Mar", 0}, {"March", 0}, 
 		{"Apr", 0}, {"April", 0}, {"May", 0}, {"May", 0}, {"Jun", 0}, {"June", 0}, 
 		{"Jul", 0}, {"July", 0}, {"Aug", 0}, {"August", 0}, {"Sep", 0}, {"September", 0}, 
 		{"Oct", 0}, {"October", 0}, {"Nov", 0}, {"November", 0}, {"Dec", 0}, {"December", 0}, 
 	};
-public:
+	public:
 	unsigned year = 1;
 	unsigned month = 1;
 	unsigned day = 1;
