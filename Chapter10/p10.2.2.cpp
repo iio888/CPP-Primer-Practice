@@ -13,11 +13,5 @@ int main()
 	for (auto i : v)
 		std::cout << i << " ";
 
-	std::cout << "\nReserve:\n";
-	std::vector<int> vec;
-	vec.reserve(10);
-	vec.reserve(10);
-	std::cout << vec.capacity() << " " << vec.size() << std::endl;
-
 	return 0;
 }
