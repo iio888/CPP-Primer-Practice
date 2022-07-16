@@ -110,7 +110,7 @@ void elsebiggies(std::vector<std::string> &words, int sz)
 		{return s1.size() < s2.size(); });
 	auto aim = std::partition(words.begin(), words.end(), [sz](const std::string &s)
 		{return s.size() > sz; });
-	std::for_each(words.end(), aim, [](const std::string &s) {std::cout << s << " "; });
+	std::for_each(words.begin(), aim, [](const std::string &s) {std::cout << s << " "; });
 }
 
 void func6()
@@ -132,5 +132,5 @@ void stableBiggies(std::vector<std::string> &words, int sz)
 		{return s1.size() < s2.size(); });
 	auto aim = std::stable_partition(words.begin(), words.end(), [sz](const std::string &s)
 		{return s.size() > sz; });
-	std::for_each(words.end(), aim, [](const std::string &s) {std::cout << s << " "; });
+	std::for_each(words.begin(), aim, [](const std::string &s) {std::cout << s << " "; });
 }
